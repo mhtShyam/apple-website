@@ -1,10 +1,19 @@
-function App() {
+import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Highlights from './components/Highlights'
+import Model from './components/Model'
+
+const App = () => {
 
   return (
-    <div className='bg-red-800 w-60 mx-auto mt-100'>
-      <h1 className='text-blue'>tailwind</h1>
-    </div>
+    <main className='bg-black'>
+      <Navbar/>
+      <Hero/>
+      <Highlights/>
+      <Model/>
+    </main>
   )
 }
-
 export default App
+
